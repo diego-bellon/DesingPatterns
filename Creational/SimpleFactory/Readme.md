@@ -1,4 +1,4 @@
-#Simple Factory Pattern
+# Simple Factory Pattern
 - Se mueve la lógica de instanciación del objeto a una clase separada, específicamente a un método estático de esa clase.
 - Algunas personas no consideran Simple Factory como un patrón de diseño, debido a que es simplemente se encapsula la lógica de instanciación del objeto en un método.
 - Típicamente se busca implementar este patrón cuando se tiene más de una opción para instanciar el objeto y se usa una lógica simple para decidir la clase correcta.

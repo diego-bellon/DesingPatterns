@@ -1,4 +1,4 @@
-#Factory Method Pattern
+# Factory Method Pattern
 - Se quiere mover la lógica de creación del objeto a una clase separada.
 - Se usa este patrón cuando no se sabe anticipadamente qué clase se debe usar para isntanciar el objeto y se delega la responsabilidad de decidir a las subclases. Esto también permite a nuevas clases ser agregadas al sistema y manejar su creación sin afectar el código del cliente. 
 - Se permite a las sub clases decidir qué objeto instanciar sobreescribiendo el método factory. 
