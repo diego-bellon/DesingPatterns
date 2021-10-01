@@ -21,7 +21,7 @@
   - Métodos que retornan valores nulos o por defecto.
 
 ## Dependency Inversion
-- Módulos de alto nivel no deben depender de módulos de bajo nivel. AMbos deben depender de abstracciones
+- Módulos de alto nivel no deben depender de módulos de bajo nivel. Ambos deben depender de abstracciones
 - Abstracciones no deben depender de detalles
 - Los detalles deben depender de abstracciones.
 - **Si necesito una instancia de un objeto, no la debo crear, me la deben pasar como parámetro definido como una abstracción.**
