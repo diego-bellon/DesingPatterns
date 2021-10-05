@@ -3,12 +3,13 @@
 ## Single Responsibility
 - Nunca debe haber más de una razón por la cuál una clase deba cambiar.
 - La clase debe enfocarse en una funcionalidad específica.
-
+[Ver ejemplo](SinglleResponsability/SingleResponsibility.md)
 
 ## Open - Close
 - Entidades de software (Clases, Módulos, Métodos, etc) deben ser abiertos a extenderse, pero cerrados a la modificación.
-    - Open to extension: Se puede extender su comportamiento 
-    - Closed to modification: No se peude cambiar el comportamiento del código existente.
+    - Open to extension: Se puede extender su comportamiento. Es decir, que se puede extender una clase o interfaz y sobreescribir el comportamiento de un método.
+    - Closed for modification: No se puede cambiar el comportamiento del código existente. No debemos modificar el código escrito.
+[Ver ejemplo](Open-Close/OpenClose.md)
 
 ## Liskov Substitution
 - Se puede sustituir una instancia de la clase base con instancias de una clase hija y no se debe modificar el comportamiento o las características del programa
